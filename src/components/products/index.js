@@ -7,10 +7,8 @@ const Products = ({ products }) => {
 		return null;
 	}
 	
-	console.log( 'products', products );
-	
 	return (
-		<div className="flex flex-wrap -mx-2 overflow-hidden">
+		<div className="flex flex-wrap -mx-3 overflow-hidden">
 			
 			{ products.length ? products.map( product => {
 				return (
